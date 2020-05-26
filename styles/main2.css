@@ -1,0 +1,307 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+body{
+font-family: 'Montserrat', sans-serif;}
+
+.squareleft{
+  position: absolute;
+  background:  #FFD801;
+  width: 13vw;
+  height: 400vh;
+  top: 0vw;
+  left: 0vw;
+}
+
+.logotip{
+  position: absolute;
+  top: 2vw;
+  left: 2vw;
+  width: 5vw;
+}
+
+.menu{
+  position: absolute;
+  left: 82vw;
+  top: 7vw;
+  width: 9vw;
+}
+
+.products{
+  position: absolute;
+  text-align: center;
+  top: 21vw;
+  left: 9vw;
+  width: 82vw;
+}
+
+.product1{
+  position: absolute;
+  border: 5px solid black;
+  width: 81.5vw;
+  height: 57vh;
+  left: 0vw;
+  top: 0vw;
+}
+
+.planet1{
+  position: relative;
+  left: -1vw;
+  width: 84vw;
+  top: 8vw;
+}
+
+.heart1{
+  position: relative;
+  width: 10vw;
+  left: 32vw;
+  top: -55vw;
+}
+
+.u1{
+  position: relative;
+  top: 0vw;
+  font-size: 41px;
+  font-weight: 800;
+}
+
+.button1{
+  position: relative;
+  top: 12vw;
+}
+
+.buy{
+  position: relative;
+  width: 20vw;
+  background: white;
+  border: 5px solid black;
+  padding: 3vw 13vw 3vw 13vw;
+  font-size: 41px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+
+.product2{
+  position: absolute;
+  border: 5px solid black;
+  width: 81.5vw;
+  height: 57vh;
+  left: 0vw;
+  top: 113vw;
+}
+
+.planet2{
+  position: relative;
+  text-align: center;
+  left: 5vw;
+  width: 49vw;
+  top: 12vw;
+}
+
+.heart2{
+  position: relative;
+  width: 10vw;
+  left: 7vw;
+  top: -36vw;
+}
+
+.u2{
+  position: relative;
+  top: 20vw;
+  font-size: 41px;
+  font-weight: 800;
+
+}
+.button2{
+  position: relative;
+  top: 31vw;
+}
+
+.product3{
+  position: absolute;
+  border: 5px solid black;
+  width: 81.5vw;
+  height: 57vh;
+  left: 0vw;
+  top: 226vw;
+}
+
+.planet3{
+  position: relative;
+  text-align: center;
+  left: 5vw;
+  width: 49vw;
+  top: 12vw;
+}
+
+.heart3{
+  position: relative;
+  width: 10vw;
+  left: 7vw;
+  top: -36vw;
+}
+
+.u3{
+  position: relative;
+  top: 20vw;
+  font-size: 41px;
+  font-weight: 800;
+
+}
+.button3{
+  position: relative;
+  top: 31vw;
+}
+
+.product4{
+  position: absolute;
+  border: 5px solid black;
+  width: 81.5vw;
+  height: 57vh;
+  left: 0vw;
+  top: 339vw;
+}
+
+.planet4{
+  position: relative;
+  text-align: center;
+  left: 5vw;
+  width: 49vw;
+  top: 12vw;
+}
+
+.heart4{
+  position: relative;
+  width: 10vw;
+  left: 7vw;
+  top: -36vw;
+}
+
+.u4{
+  position: relative;
+  top: 20vw;
+  font-size: 41px;
+  font-weight: 800;
+}
+
+.button4{
+  position: relative;
+  top: 31vw;
+}
+
+.product5{
+  position: absolute;
+  border: 5px solid black;
+  width: 81.5vw;
+  height: 57vh;
+  left: 0vw;
+  top: 452vw;
+}
+
+.planet5{
+  position: relative;
+  text-align: center;
+  left: 5vw;
+  width: 49vw;
+  top: 12vw;
+}
+
+.heart5{
+  position: relative;
+  width: 10vw;
+  left: 7vw;
+  top: -36vw;
+}
+
+.u5{
+  position: relative;
+  top: 20vw;
+  font-size: 41px;
+  font-weight: 800;
+}
+
+.button5{
+  position: relative;
+  top: 31vw;
+}
+
+.product6{
+  position: absolute;
+  border: 5px solid black;
+  width: 81.5vw;
+  height: 57vh;
+  left: 0vw;
+  top: 565vw;
+}
+
+.planet6{
+  position: relative;
+  text-align: center;
+  left: 5vw;
+  width: 65vw;
+  top: 12vw;
+}
+
+.heart6{
+  position: relative;
+  width: 10vw;
+  left: -1vw;
+  top: -36vw;
+}
+
+.u6{
+  position: relative;
+  top: 20vw;
+  font-size: 41px;
+  font-weight: 800;
+}
+
+.button6{
+  position: relative;
+  top: 31vw;
+}
+
+
+.footer{
+  position: absolute;
+  overflow: hidden;
+  background: black;
+  width: 100vw;
+  height: 25vh;
+  left: -9vw;
+  top: 679vw;
+}
+
+.email{
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+  width: 50vw;
+  font-size: 41px;
+  font-weight: 500;
+  line-height: 2;
+  color: white;
+  left: 9vw;
+  top: 5vw;
+}
+
+.facebook{
+  position: relative;
+  z-index: 99;
+  color: white;
+  width: 10vw;
+  height: 10vh;
+  left: 41vw;
+  top: -29vw;
+}
+
+.insta{
+  position: relative;
+  width: 10vw;
+  height: 10vh;
+  left: 30.5vw;
+  top: -11vw;
+}

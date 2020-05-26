@@ -1,0 +1,165 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+body{
+font-family: 'Montserrat', sans-serif;}
+
+.squareleft{
+  position: absolute;
+  background:  #FFD801;
+  width: 13vw;
+  height: 100vh;
+  top: 0vw;
+  left: 0vw;
+}
+
+.logotip{
+  position: absolute;
+  top: 2vw;
+  left: 2vw;
+  width: 5vw;
+}
+
+.menu{
+  position: absolute;
+  left: 82vw;
+  top: 7vw;
+  width: 9vw;
+}
+
+.contact{
+  position: absolute;
+  background: blue;
+  border: 5px solid black;
+  width: 81.5vw;
+  height: 56vh;
+  top: 30vw;
+  left: 9vw;
+  width: 82vw;
+}
+
+
+h1{
+  position: relative;
+  text-align: center;
+  font-size: 41px;
+  font-weight: 700;
+  top: -9vw;
+}
+
+.name{
+  position: relative;
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  top: 3vw;
+  left: 7vw;
+}
+
+.name2{
+  position: relative;
+  background: white;
+  border: 5px solid black;
+  width: 69vw;
+  height: 5vh;
+  margin: 6vw;
+  top: 0vw;
+}
+
+.e-mail{
+  position: relative;
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  top: 1vw;
+  left: 7vw;
+}
+
+.e-mail2{
+  position: relative;
+  background: white;
+  border: 5px solid black;
+  width: 69vw;
+  height: 5vh;
+  margin: 6vw;
+  top: -2vw;
+}
+
+.message{
+  position: relative;
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  top: -1vw;
+  left: 7vw;
+}
+
+.message2{
+  position: relative;
+  background: white;
+  border: 5px solid black;
+  width: 69vw;
+  height: 17vh;
+  margin: 6vw;
+  top: -4vw;
+}
+
+.button{
+  position: relative;
+  text-align: center;
+  top: 10vw;
+}
+
+.send{
+  position: relative;
+  width: 20vw;
+  background: white;
+  border: 5px solid black;
+  padding: 3vw 17vw 3vw 17vw;
+  font-size: 41px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.footer{
+  position: absolute;
+  overflow: hidden;
+  background: black;
+  width: 100vw;
+  height: 25vh;
+  left: -9.5vw;
+  top: 128vw;
+}
+
+.email{
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+  width: 50vw;
+  font-size: 41px;
+  font-weight: 500;
+  line-height: 2;
+  color: white;
+  left: 9vw;
+  top: 5vw;
+}
+
+.facebook{
+  position: relative;
+  z-index: 99;
+  color: white;
+  width: 10vw;
+  height: 10vh;
+  left: 82vw;
+  top: -29vw;
+}
+
+.insta{
+  position: relative;
+  width: 10vw;
+  height: 10vh;
+  left: 71.5vw;
+  top: -11vw;
+}
