@@ -357,3 +357,7 @@ font-family: 'Montserrat', sans-serif;}
   left: 70.5vw;
   top: -10vw;
 }
+
+@media (min-width: 1280px) and (max-width: 1920px){
+
+}

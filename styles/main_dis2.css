@@ -1,0 +1,131 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+body{
+font-family: 'Montserrat', sans-serif;}
+
+.search{
+  position: absolute;
+  width: 30vw;
+  height: 6vw;
+  left: 67.8vw;
+  top: 3.2vw;
+
+}
+.group {
+  position: relative;
+}
+
+.search_img{
+  position: relative;
+  width: 2vw;
+  left: 23vw;
+  top: -2.8vw;
+  z-index: 11;
+  opacity: 50%;
+}
+
+input {
+  position: relative;
+  font-size: 22px;
+  padding: 1vw;
+  display: block;
+  left: 0vw;
+  top: 0vw;
+  width: 25.5vw;
+  height: 6vh;
+  border: 4px solid #000000;
+  z-index: 10;
+}
+
+.square_left{
+  position: absolute;
+  background:  #FFD801;
+  width: 10vw;
+  height: 295vh;
+  top: 0vw;
+  left: 0vw;
+}
+
+.logo{
+  position: fixed;
+  top: 1.2vw;
+  left: 2vw;
+  width: 2.9vw;
+}
+
+.header_list{
+  position: absolute;
+  /* overflow: hidden; */
+  display: flex;
+  top: 7.7vw;
+  left: 2vw;
+
+}
+.header_list,li{
+  list-style: none;
+  margin: 0vw 0vw 0vw 6vw;
+}
+
+.header_link_1{
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  width: 20vw;
+  background: white;
+  /* border: 5px solid black; */
+  padding: 1vw 3vw 1vw 3vw;
+}
+
+.header_link_2{
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  width: 20vw;
+  background: white;
+  border: 4px solid black;
+  padding: 1vw 3vw 1vw 3vw;
+}
+
+.header_link_3{
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+  width: 20vw;
+  background: white;
+  /* border: 5px solid black; */
+  padding: 1vw 3vw 1vw 3vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.back{
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+  width: 100%;
+  opacity: 40%;
+}
